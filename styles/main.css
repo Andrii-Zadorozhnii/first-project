@@ -1,1 +1,90 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato300";
+  src: url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlayfairDisplayItalic";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LatoNormal";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PlayfairDisplayNormal";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.navigation-list, .header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/first-screen-image.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.header-navigation, .navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  margin-top: 30px;
+  opacity: 0.5;
+  padding: 24px 9.375%;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%);
+  -webkit-backdrop-filter: blur(4.5px);
+          backdrop-filter: blur(4.5px);
+  opacity: 1;
+}
+
+.header-navigation {
+  flex-wrap: wrap;
+}
+.header-logo {
+  fill: white;
+}
+
+.navigation-list {
+  max-width: 490px;
+  width: 100%;
+}
+.navigation-list__item a:link {
+  font: 400 14px/24px "LatoNormal", sans-serif;
+  color: #262A3F;
+}
+.navigation-list__item a:visited {
+  font: 400 14px/24px "LatoNormal", sans-serif;
+  color: #262A3F;
+}/*# sourceMappingURL=main.css.map */
