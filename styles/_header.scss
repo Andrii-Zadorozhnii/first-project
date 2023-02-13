@@ -3,7 +3,7 @@
 
 
 header{
-    margin-top: 30px;
+    margin: 30px 0 150px;
     opacity: .5;
     padding: 24px 9.375%;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%);
@@ -20,7 +20,11 @@ header{
     }
 
     &-logo{
-        fill: white
+
+        &:hover{
+            transition: .1s ease-in-out;
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -29,7 +33,18 @@ header{
     max-width: 490px;
     width: 100%;
 
-    &__item a{
+    &__item {
+
+        &:hover{
+
+            border-bottom: 2px solid var.$linkBorderBottomColor;
+            transition: .1s ease-in-out;
+            transform: scale(1.1);
+        }
+    
+        & a{
+
+        
 
         &:link {
             font: var.$menuFont;
@@ -41,4 +56,5 @@ header{
             color: var.$menuFontColor;
         }
     }
+}
 }
