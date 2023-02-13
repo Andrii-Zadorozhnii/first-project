@@ -5,3 +5,15 @@
         align-items: center;
         justify-content: space-between;
 }
+
+%fontGreenItalic{
+    color: #85BBB1;
+    font-style: italic;
+}
+
+%buttonStyle{
+    font: var.$fontButton;
+    color: #F1897B;
+    opacity: 0.8;
+
+}

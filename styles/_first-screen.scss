@@ -1,0 +1,37 @@
+@use "var";
+@use "preparedcode";
+
+
+.first-screen{
+
+    &__header{
+        font: var.$fontHeader;
+        max-width: 523px;
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    &__description{
+        font: var.$fontDescription;
+        max-width: 439px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    &__button{
+        border: none;
+        @extend %buttonStyle;
+        background: none;
+        
+        &:hover{
+            cursor: pointer;
+            transition: .1s ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.higlight-text{
+    @extend %fontGreenItalic;
+}
+
