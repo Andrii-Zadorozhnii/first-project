@@ -1,0 +1,40 @@
+@use "var";
+@use "preparedcode";
+
+
+.section-info{
+    margin-bottom: 120px;
+    padding: 45px 0;
+
+    &__image{
+        position: absolute;
+        z-index: -1;
+        margin: auto;
+
+    }
+
+    &__text{
+        @extend %displayFlexCenterBetween;
+        flex-basis: 370px 400px;
+        max-width: 770px;
+        width: 100%;
+        margin: 0 45px;
+        
+
+        &-one{
+            @extend %displayFlexCenterBetween;
+            text-align: center;
+        }
+    }
+}
+
+
+
+.text-area{
+
+
+    &__price--color{
+        font: var.$fontPrice;
+        color: var.$fontPriceColor;
+    }
+}

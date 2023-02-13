@@ -3,12 +3,13 @@
 
 
 .first-screen{
+    margin-bottom: 154px;
 
     &__header{
         font: var.$fontHeader;
         max-width: 523px;
         width: 100%;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     &__description{
