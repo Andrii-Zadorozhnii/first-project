@@ -221,6 +221,8 @@ header {
   max-width: 370px;
   width: 100%;
   z-index: 2;
+  display: grid;
+  gap: 80px;
 }
 .section-info__text-two {
   max-width: 400px;
@@ -228,9 +230,6 @@ header {
   z-index: 2;
 }
 
-.text-area {
-  border-bottom: 1px solid gray;
-}
 .text-area__price {
   margin-bottom: 12px;
 }
@@ -241,8 +240,4 @@ header {
 
 .text-two__text {
   margin-bottom: 50px;
-}
-.text-two__text-one {
-  display: inline-grid;
-  gap: 50px;
 }/*# sourceMappingURL=main.css.map */

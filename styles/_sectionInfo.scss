@@ -34,6 +34,8 @@
             max-width: 370px;
             width: 100%;
             z-index: 2;
+            display: grid;
+            gap: 80px;
         }
 
         &-two{
@@ -47,8 +49,6 @@
 
 
 .text-area{
-
-    border-bottom: 1px solid gray;
 
 
     &__price{
@@ -64,9 +64,4 @@
 
 .text-two__text{
     margin-bottom: 50px;
-
-    &-one{
-        display: inline-grid;
-        gap: 50px;
-    }
 }
