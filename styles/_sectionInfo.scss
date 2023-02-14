@@ -5,25 +5,41 @@
 .section-info{
     margin-bottom: 120px;
     padding: 45px 0;
+    display: flex;
 
     &__image{
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         margin: auto;
+        max-height: 670px;
+        height: 100%;
 
     }
 
     &__text{
         @extend %displayFlexCenterBetween;
-        flex-basis: 370px 400px;
-        max-width: 770px;
-        width: 100%;
-        margin: 0 45px;
+        justify-content: end;
+        margin-top: 45px;
+        background: #FFFFFF;
+        opacity: 0.9;
+        width: 770px;
+        z-index: 2;
+        margin-left: 400px;
+        padding-top: 45px;
+        padding-bottom: 45px;
         
 
         &-one{
-            @extend %displayFlexCenterBetween;
             text-align: center;
+            max-width: 370px;
+            width: 100%;
+            z-index: 2;
+        }
+
+        &-two{
+            max-width: 400px;
+            width: 100%;
+            z-index: 2;
         }
     }
 }
@@ -32,9 +48,25 @@
 
 .text-area{
 
+    border-bottom: 1px solid gray;
+
+
+    &__price{
+        margin-bottom: 12px;
+    }
 
     &__price--color{
         font: var.$fontPrice;
         color: var.$fontPriceColor;
+        
+    }
+}
+
+.text-two__text{
+    margin-bottom: 50px;
+
+    &-one{
+        display: inline-grid;
+        gap: 50px;
     }
 }

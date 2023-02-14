@@ -33,7 +33,7 @@
   font-style: normal;
   font-display: swap;
 }
-.section-info__text-one, .section-info__text, .navigation-list, .header-navigation {
+.section-info__text, .navigation-list, .header-navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,13 +66,14 @@ body {
   background-size: cover;
   background-position: center;
   margin: 0;
+  padding-top: 40px;
 }
 
 main {
   padding: 0px 9.375%;
 }
 
-.section-info__text-one, .section-info__text, .header-navigation, .navigation-list {
+.section-info__text, .header-navigation, .navigation-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +91,7 @@ main {
 }
 
 header {
-  margin: 30px 0 150px;
+  margin: 0 0 150px;
   opacity: 0.5;
   padding: 24px 9.375%;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%);
@@ -133,7 +134,7 @@ header {
   color: #262A3F;
 }
 
-.section-info__text-one, .section-info__text, .header-navigation, .navigation-list {
+.section-info__text, .header-navigation, .navigation-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -175,7 +176,7 @@ header {
   transform: scale(1.1);
 }
 
-.header-navigation, .navigation-list, .section-info__text, .section-info__text-one {
+.header-navigation, .navigation-list, .section-info__text {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -195,23 +196,53 @@ header {
 .section-info {
   margin-bottom: 120px;
   padding: 45px 0;
+  display: flex;
 }
 .section-info__image {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   margin: auto;
+  max-height: 670px;
+  height: 100%;
 }
 .section-info__text {
-  flex-basis: 370px 400px;
-  max-width: 770px;
-  width: 100%;
-  margin: 0 45px;
+  justify-content: end;
+  margin-top: 45px;
+  background: #FFFFFF;
+  opacity: 0.9;
+  width: 770px;
+  z-index: 2;
+  margin-left: 400px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .section-info__text-one {
   text-align: center;
+  max-width: 370px;
+  width: 100%;
+  z-index: 2;
+}
+.section-info__text-two {
+  max-width: 400px;
+  width: 100%;
+  z-index: 2;
 }
 
+.text-area {
+  border-bottom: 1px solid gray;
+}
+.text-area__price {
+  margin-bottom: 12px;
+}
 .text-area__price--color {
   font: 400 40px/50px "PlayfairDisplayNormal", serif;
   color: #E4E4E4;
+}
+
+.text-two__text {
+  margin-bottom: 50px;
+}
+.text-two__text-one {
+  display: inline-grid;
+  gap: 50px;
 }/*# sourceMappingURL=main.css.map */
