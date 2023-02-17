@@ -2,12 +2,12 @@
 @use "preparedcode";
 
 
-.section-info{
+.section-info {
     margin-bottom: 120px;
     padding: 45px 0;
     display: flex;
 
-    &__image{
+    &__image {
         position: absolute;
         z-index: 0;
         margin: auto;
@@ -16,7 +16,7 @@
 
     }
 
-    &__text{
+    &__text {
         @extend %displayFlexCenterBetween;
         justify-content: end;
         margin-top: 45px;
@@ -27,9 +27,9 @@
         margin-left: 400px;
         padding-top: 45px;
         padding-bottom: 45px;
-        
 
-        &-one{
+
+        &-one {
             text-align: center;
             max-width: 370px;
             width: 100%;
@@ -38,30 +38,47 @@
             gap: 80px;
         }
 
-        &-two{
+        &-two {
             max-width: 400px;
             width: 100%;
             z-index: 2;
+            align-self: self-start;
         }
     }
 }
 
 
 
-.text-area{
+.text-area {
 
-
-    &__price{
-        margin-bottom: 12px;
+    &price-subtitle {
+        font: var.$fontDescription;
+        color: var.$mainFontColor;
+        opacity: 0.8;
     }
 
-    &__price--color{
+
+    &__price {
+        margin-bottom: 12px;
+        font: var.$fontPriceNumber;
+        color: var.$mainFontColor;
+
+
+
+
+    }
+
+    &__price--color {
         font: var.$fontPrice;
         color: var.$fontPriceColor;
-        
+
     }
+
 }
 
-.text-two__text{
+.text-two__text {
     margin-bottom: 50px;
+    font: var.$fontDescription;
+    color: var.$mainFontColor;
+    opacity: 0.8;
 }

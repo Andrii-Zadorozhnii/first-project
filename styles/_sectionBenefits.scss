@@ -1,0 +1,46 @@
+@use "var";
+@use "preparedcode";
+
+
+
+.section-benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    &__item {
+        max-width: 570px;
+        width: 100%;
+        padding: 20px 32px 52px;
+
+        @media screen and (max-width: 1400px) {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1230px) {
+            max-width: 400px;
+            width: 100%;
+        }
+        @media screen and (max-width: 990px) {
+            max-width: 350px;
+            width: 100%;
+        }
+        @media screen and (max-width: 960px) {
+            max-width: 100%;
+        }
+
+        &-header {
+            font: var.$fontBenefitHeader;
+            color: var.$mainFontColor;
+            margin-bottom: 30px;
+        }
+
+        &-text {
+            font: var.$fontDescription;
+            color: var.$mainFontColor;
+            opacity: 0.8;
+        }
+    }
+}
