@@ -274,11 +274,15 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 120px;
 }
 .section-benefits__item {
   max-width: 570px;
   width: 100%;
   padding: 20px 32px 52px;
+  border-top: 1px solid #E4E4E4;
+  padding-top: 30px;
+  margin-bottom: 60px;
 }
 @media screen and (max-width: 1400px) {
   .section-benefits__item {

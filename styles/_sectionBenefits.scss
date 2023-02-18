@@ -4,15 +4,21 @@
 
 
 .section-benefits {
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 120px;
+
 
 
     &__item {
         max-width: 570px;
         width: 100%;
         padding: 20px 32px 52px;
+        border-top: 1px solid var.$fontPriceColor;
+        padding-top: 30px;
+        margin-bottom: 60px;
 
         @media screen and (max-width: 1400px) {
             max-width: 500px;
@@ -23,10 +29,12 @@
             max-width: 400px;
             width: 100%;
         }
+
         @media screen and (max-width: 990px) {
             max-width: 350px;
             width: 100%;
         }
+
         @media screen and (max-width: 960px) {
             max-width: 100%;
         }
