@@ -1,0 +1,23 @@
+@use "var";
+@use "preparedcode";
+
+
+.section-video {
+    max-width: 970px;
+    width: 100%;
+    max-height: 601px;
+    height: 100%;
+    padding: 30px 31px 70px;
+    background: url(../images/section-video/section-video-tablet.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: var.$sectionMarginBottom;
+    margin: 0 auto;
+
+    &__video {
+        max-width: 870px;
+        max-height: 539px;
+        height: 100%;
+        width: 100%;
+    }
+}

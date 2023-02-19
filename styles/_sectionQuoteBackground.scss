@@ -1,0 +1,29 @@
+@use "var";
+@use "preparedcode";
+
+
+.section-quote{
+    padding: 100px 160px;
+    background: url(../images/section-quote__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: var.$sectionMarginBottom;
+
+
+    &__text{
+        max-width: 710px;
+        width: 100%;
+        position: relative;
+        font: var.$fontSectionQuote;
+        color: var.$fontSectionQuoteColor;
+        letter-spacing: 0.04em;
+        margin-bottom: 40px;
+
+        &-autor{
+            font: var.$fontSectionQuoteAutor;
+            color: var.$fontSectionQuoteColor;
+            letter-spacing: 0.08em;
+        }
+    }
+
+}
