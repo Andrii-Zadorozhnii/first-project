@@ -1,0 +1,22 @@
+@use "var";
+@use "preparedcode";
+
+.section-promises{
+
+
+    &__images{
+
+        &__image {
+            position: absolute;
+            z-index: 0;
+            margin: auto;
+            max-height: 670px;
+            height: 100%;
+    
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+    }
+}
+}

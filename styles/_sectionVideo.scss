@@ -3,21 +3,49 @@
 
 
 .section-video {
-    max-width: 970px;
-    width: 100%;
-    max-height: 601px;
-    height: 100%;
-    padding: 30px 31px 70px;
-    background: url(../images/section-video/section-video-tablet.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-bottom: var.$sectionMarginBottom;
-    margin: 0 auto;
+    padding: 0px 6.944%;
+
+    &__container {
+        max-width: 970px;
+        width: 100%;
+        max-height: 601px;
+        height: 100%;
+        padding: 31px 70px 31px 30px;
+        background: url(../images/section-video/section-video-tablet.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin: 0 auto 50px;
+    }
 
     &__video {
-        max-width: 870px;
-        max-height: 539px;
-        height: 100%;
-        width: 100%;
+        width: 870px;
+        height: 539px;
+        background: url(../images/section-video/screensaver-video.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+
+    }
+
+    &__text {
+
+        &-header {
+            max-width: 897px;
+            width: 100%;
+            margin-bottom: 20px;
+            font: var.$fontBenefitHeader;
+            color: var.$mainFontColor;
+        }
+
+        &-content {
+            max-width: 897px;
+            width: 100%;
+            margin-bottom: 20px;
+            font: var.$fontDescription;
+            color: var.$mainFontColor;
+            opacity: 0.8;
+        }
     }
 }
