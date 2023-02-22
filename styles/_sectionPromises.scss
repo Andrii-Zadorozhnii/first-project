@@ -1,22 +1,71 @@
 @use "var";
 @use "preparedcode";
 
-.section-promises{
+.section-promises {
+    max-height: 540px;
+    height: 100%;
 
+    &__images {
+        max-height: 540px;
+        height: 100%;
+        max-width: 600px;
+        width: 100%;
+        position: absolute;
 
-    &__images{
-
-        &__image {
-            position: absolute;
-            z-index: 0;
-            margin: auto;
-            max-height: 670px;
+        & img {
+            width: 100%;
             height: 100%;
-    
-            & img{
-                width: 100%;
-                height: 100%;
-            }
+        }
     }
-}
+
+
+    &__text {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 75px 0px 75px 70px;
+        background: #FFFFFF;
+        opacity: 0.9;
+        max-width: 770px;
+        width: 100%;
+        float: right;
+        margin-top: 45px;
+        row-gap: 70px;
+        justify-content: space-between;
+
+
+        &-area {
+            max-width: 300px;
+            width: 100%;
+
+            &-header {
+                margin-bottom: 15px;
+                font: var.$fontPromiceHeader;
+                color: var.$mainFontColor;
+            }
+
+            &-item {
+                font: var.$fontPromiceItem;
+                color: var.$mainFontColor;
+            }
+
+            &-button{
+                border: 0px;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+                border: 1px solid #E4E4E4;
+                background-color: inherit;
+                color: #F1897B;
+                font: var.$fontButton;
+
+                &:hover{
+                    border: 1px solid #E64F3A;
+                    color: #E64F3A;
+                    font: var.$fontButton;
+                    transition: 0.8s ;
+                }
+            }
+        }
+
+    }
 }
