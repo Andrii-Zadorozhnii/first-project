@@ -96,6 +96,6 @@ a:visited {
 
 input[type="text"],
 input[type="email"],
-input[type="phone"] {
+input[type="tel"] {
   padding-left: 10px;
 }

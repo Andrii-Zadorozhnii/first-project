@@ -465,7 +465,7 @@ header {
 }
 .section-promises__text-area-header {
   margin-bottom: 15px;
-  font: 400 24px/48px "PlayfairDisplayNormal", serif;
+  font: 400 40px/39px "PlayfairDisplayNormal", serif;
   color: #262A3F;
 }
 .section-promises__text-area-item {
@@ -508,6 +508,7 @@ header {
 
 .section-reviews {
   color: #262A3F;
+  margin-bottom: 120px;
 }
 .section-reviews__header {
   font: 400 40px/48px "PlayfairDisplayNormal", serif;
@@ -544,4 +545,86 @@ header {
   font: 400 20px/20px "PlayfairDisplayItalic", serif;
   color: #fff;
   letter-spacing: 0.08em;
+}
+
+.header-navigation, .navigation-list, .section-info__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.higlight-text {
+  color: #85BBB1;
+  font-style: italic;
+}
+
+.first-screen__button {
+  font: 700 20px/20px "LatoBold", sans-sefir;
+  color: #F1897B;
+  opacity: 0.8;
+}
+
+.section-contact {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #E4E4E4;
+}
+.section-contact__heading {
+  max-width: 470px;
+  width: 100%;
+}
+.section-contact__heading-header {
+  font: 400 40px/39px "PlayfairDisplayNormal", serif;
+  color: #262A3F;
+  padding-bottom: 29px;
+}
+.section-contact__heading-subtitle {
+  opacity: 0.8;
+  font: 400 18px/26px "LatoNormal", sans-serif;
+}
+.section-contact__form {
+  max-width: 470px;
+  width: 100%;
+}
+.section-contact__form-input {
+  border-bottom: 1px solid #E4E4E4;
+}
+.section-contact__form-input:nth-child(n) {
+  padding-top: 40px;
+}
+.section-contact__form-input:first-child {
+  padding-top: 0px;
+}
+.section-contact__form-input input {
+  border: 0px;
+  max-width: 470px;
+  width: 100%;
+  height: 32px;
+  padding-left: 0px;
+  background-color: inherit;
+  font: 400 18px/20px "PlayfairDisplayItalic", serif;
+  letter-spacing: 0.08em;
+  outline: none;
+}
+.section-contact__form-input:last-child {
+  border-bottom: none;
+}
+
+.header-navigation, .navigation-list, .section-info__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.higlight-text {
+  color: #85BBB1;
+  font-style: italic;
+}
+
+.first-screen__button {
+  font: 700 20px/20px "LatoBold", sans-sefir;
+  color: #F1897B;
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */

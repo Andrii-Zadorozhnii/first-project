@@ -4,6 +4,7 @@
 
 .section-reviews{
     color: var.$mainFontColor;
+    margin-bottom: var.$sectionMarginBottom;
 
     &__header{
         font: var.$fontBenefitHeader;
