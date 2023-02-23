@@ -33,10 +33,14 @@
         min-height: 340px;
         height: 100%;
         padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         flex: 1;
         
 
         &-text{
+            display: block;
             font: var.$fontReview;
             color: #fff;
             opacity: 0.8;
@@ -44,31 +48,37 @@
         }
 
         &-author{
+            display: block;
             font: var.$fontSectionQuoteAutor;
             color: #fff;
             letter-spacing: 0.08em;
+
             
         }
     }
 }
 
 .backround-one{
-    background: url("../images/section-review/image1.png");
+    background: linear-gradient(0deg, rgba(25, 28, 41, 0.6), rgba(25, 28, 41, 0.6)),url("../images/section-review/image1.png");
     background-repeat: no-repeat;
+    object-fit: cover;
     background-size: cover;
+    width: 100%;
 }
 
 .backround-two{
-    background: url("../images/section-review/image2.png");
+    background: linear-gradient(0deg, rgba(25, 28, 41, 0.6), rgba(25, 28, 41, 0.6)),url("../images/section-review/image2.png");
     background-repeat: no-repeat;
+    object-fit: cover;
     background-size: cover;
+    width: 100%;
 
 }
 
 .backround-three{
-    background: url("../images/section-review/image3.png");
+    background: linear-gradient(0deg, rgba(25, 28, 41, 0.6), rgba(25, 28, 41, 0.6)),url("../images/section-review/image3.png");
     background-repeat: no-repeat;
+    object-fit: cover;
     background-size: cover;
     width: 100%;
-    
 }

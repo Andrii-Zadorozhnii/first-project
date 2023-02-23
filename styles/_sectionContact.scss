@@ -30,30 +30,20 @@
         width: 100%;
 
         &-input {
-            border-bottom: 1px solid #E4E4E4;
-            
 
-            &:nth-child(n){
-                padding-top: 40px;
-            }
-
-            &:first-child{
-                padding-top: 0px;
-            }
-
-            & button{
+            & button {
                 font: var.$fontButton;
                 color: var.$linkBorderBottomColor;
                 border: none;
                 background: inherit;
                 opacity: 0.6;
 
-                &:hover{
+                &:hover {
                     opacity: 1;
                     transition: 0.8s;
                 }
             }
-            
+
 
             & input {
                 border: 0px;
@@ -64,8 +54,10 @@
                 background-color: inherit;
                 font: var.$fontContactInput;
                 letter-spacing: 0.08em;
-                outline:none;
-                
+                outline: none;
+                margin-bottom: 40px;
+                border-bottom: 1px solid #E4E4E4;
+
             }
 
             &:last-child {
