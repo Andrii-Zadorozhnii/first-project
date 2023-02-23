@@ -1,0 +1,51 @@
+@use "var";
+@use "preparedcode";
+
+
+.section-reviews{
+    color: var.$mainFontColor;
+
+    &__header{
+        font: var.$fontBenefitHeader;
+        margin-bottom: 20px;
+    }
+
+    &__description{
+        max-width: 400px;
+        width: 100%;
+        font: var.$fontPromiceItem;
+        opacity: 0.8;
+        margin-bottom: 50px;
+    }
+
+    &__reviews{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 340px;
+    }
+
+    &__review{
+        max-width: 32%;
+        width: 100%;
+        min-height: 340px;
+        height: 100%;
+        padding: 30px 40px;
+        background-color: black;
+
+        &-text{
+            font: var.$fontReview;
+            color: #fff;
+            opacity: 0.8;
+
+        }
+
+        &-author{
+            font: var.$fontSectionQuoteAutor;
+            color: #fff;
+            letter-spacing: 0.08em;
+            
+        }
+    }
+}

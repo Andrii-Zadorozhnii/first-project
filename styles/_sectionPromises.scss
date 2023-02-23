@@ -2,8 +2,9 @@
 @use "preparedcode";
 
 .section-promises {
-    max-height: 540px;
+    min-height: 540px;
     height: 100%;
+    margin-bottom: var.$sectionMarginBottom;
 
     &__images {
         max-height: 540px;
