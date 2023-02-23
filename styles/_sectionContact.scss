@@ -7,13 +7,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     border-top: 1px solid #E4E4E4;
+    margin-bottom: 100px;
 
     &__heading {
         max-width: 470px;
         width: 100%;
 
         &-header {
-            font: var.$fontPromiceHeader;
+            font: var.$fontContactHeader;
             color: var.$mainFontColor;
             padding-bottom: 29px;
         }
@@ -38,6 +39,19 @@
 
             &:first-child{
                 padding-top: 0px;
+            }
+
+            & button{
+                font: var.$fontButton;
+                color: var.$linkBorderBottomColor;
+                border: none;
+                background: inherit;
+                opacity: 0.6;
+
+                &:hover{
+                    opacity: 1;
+                    transition: 0.8s;
+                }
             }
             
 

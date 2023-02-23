@@ -1,6 +1,7 @@
 @use "var";
 @use "preparedcode";
 
+
 .section-promises {
     min-height: 540px;
     height: 100%;
@@ -64,6 +65,7 @@
                     color: #E64F3A;
                     font: var.$fontButton;
                     transition: 0.8s ;
+                    opacity: 1;
                 }
             }
         }

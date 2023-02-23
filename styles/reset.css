@@ -87,11 +87,11 @@ select {
 }
 
 a:link {
-  color: blue;
+  color: #262A3F;
 }
 
 a:visited {
-  color: blue;
+  color: #262A3F;
 }
 
 input[type="text"],

@@ -1,3 +1,23 @@
 @use "var";
 @use "preparedcode";
 
+.agreement{
+    gap: 32px;
+}
+.footer{
+    border-top: 1px solid #E4E4E4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-text{
+        font: var.$menuFont;
+        color: var.$mainFontColor;
+        display: flex;
+        gap: 12px;
+        opacity: 0.6;
+    }
+}
+
